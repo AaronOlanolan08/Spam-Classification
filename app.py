@@ -16,6 +16,11 @@ X_train_vec = vectorizer.fit_transform(X_train)
 model = MultinomialNB()
 model.fit(X_train_vec, y_train)
 
+st.set_page_config(
+    page_title="Spam Classifier",
+    page_icon="📩",
+    initial_sidebar_state="auto"        
+)
 # Streamlit UI
 st.title("Spam or Ham Message Classifier")
 
