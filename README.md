@@ -14,15 +14,15 @@ This Streamlit app is a simple Spam vs Ham (Not Spam) message classifier. It use
 
 2. Install Required Libraries
 
-Run the following command in your terminal:
+    Run the following command in your terminal:
 
-    pip install streamlit pandas scikit-learn
+        pip install streamlit pandas scikit-learn
 
 3. Run the App
 
-In your terminal, navigate to the directory containing your script and run:
+    In your terminal, navigate to the directory containing your script and run:
 
-    streamlit run app.py
+        streamlit run app.py
 
 4. Interact
 
@@ -37,9 +37,7 @@ In your terminal, navigate to the directory containing your script and run:
 
 
 ### HAM: 
-
 ![alt text](images/ham-ss.png "HAM")
 
 ### SPAM:
-
 ![alt text](images/spam-ss.png "SPAM")
